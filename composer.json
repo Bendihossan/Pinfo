@@ -1,0 +1,12 @@
+{
+    "require": {
+        "symfony/console": "2.3.*@dev",
+        "symfony/framework-bundle": "2.2.*@dev",
+        "pear/Console_Table": "dev-trunk"
+    },
+    "autoload": {
+        "psr-0": {
+            "Bendihossan\\": "src/"
+        }
+    }
+}

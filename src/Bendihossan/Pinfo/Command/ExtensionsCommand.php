@@ -41,7 +41,7 @@ class ExtensionsCommand extends PinfoCommand
             $table->addRow(array($extension));
         }
 
-        echo $table->getTable();
+        $output->write($table->getTable());
 
         print "\n";
     }

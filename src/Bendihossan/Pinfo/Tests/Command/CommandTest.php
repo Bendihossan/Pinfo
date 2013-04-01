@@ -23,7 +23,7 @@ class CommandTest extends \PHPUnit_Framework_TestCase
 
     public function testExecuteEnvironmentCommand()
     {
-        $commandTester = $this->getCommandTester('pinfo:env');
+        $commandTester = $this->getCommandTester('env');
 
         $this->assertContains('Environment', $commandTester->getDisplay());
         $this->assertContains('PHP Version => '.phpversion(), $commandTester->getDisplay());
@@ -43,7 +43,7 @@ class CommandTest extends \PHPUnit_Framework_TestCase
 
     public function testExecuteExtensionsCommand()
     {
-        $commandTester = $this->getCommandTester('pinfo:exts');
+        $commandTester = $this->getCommandTester('exts');
 
         $extensions = get_loaded_extensions();
         foreach ($extensions as $extension) {

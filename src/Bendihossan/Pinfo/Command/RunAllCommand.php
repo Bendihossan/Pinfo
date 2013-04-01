@@ -17,9 +17,9 @@ class RunAllCommand extends PinfoCommand
     protected function configure()
     {
         $this
-            ->setName('pinfo:all')
+            ->setName('all')
             ->setDescription('Lists all your environment info.')
-            ->setHelp('The <info>pinfo:all</info> lists your environment specific info');
+            ->setHelp('The <info>all</info> lists your environment specific info');
     }
 
     /**

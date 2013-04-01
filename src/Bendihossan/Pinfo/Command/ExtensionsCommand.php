@@ -16,9 +16,9 @@ class ExtensionsCommand extends PinfoCommand
     protected function configure()
     {
         $this
-            ->setName('pinfo:exts')
+            ->setName('exts')
             ->setDescription('Lists your PHP extensions.')
-            ->setHelp('The <info>pinfo:env</info> lists your environment specific info');
+            ->setHelp('The <info>exts</info> lists your environment specific info');
     }
 
     /**

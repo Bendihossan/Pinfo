@@ -10,30 +10,12 @@ Basic Usage
 ====================
 Pinfo! uses the Symfony Console component to register commands.
 
-Run php console.php to find out the available commands:
+Run ``php console.php`` to find out the available commands:
 ```
-php console.php
-Console Tool
-
-Usage:
-  [options] command [arguments]
-
-Options:
-  --help           -h Display this help message.
-  --quiet          -q Do not output any message.
-  --verbose        -v Increase verbosity of messages.
-  --version        -V Display this application version.
-  --ansi              Force ANSI output.
-  --no-ansi           Disable ANSI output.
-  --no-interaction -n Do not ask any interactive question.
-
 Available commands:
-  help         Displays help for a command
-  list         Lists commands
-pinfo
-  pinfo:all    Lists all available info about your environment
-  pinfo:env    Lists your environment info
-  pinfo:exts   Lists your PHP extenstions.
+  all    Lists all your environment info.
+  env    Lists info about your PHP environment
+  exts   Lists your PHP extensions.
 ```
 
 Coming soon!

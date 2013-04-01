@@ -2,8 +2,9 @@ Pinfo!
 ====================
 
 I'm constantly switching between three different computers with different operating systems and development environments: desktop, laptop and work computer. Because of that I'm terrible at remembering what version of PHP I'm using, which extensions are loaded and so on.
-
 Pinfo! is a simple application to remind you what's loaded and available on this computer. This was an experiment for me in building a CLI tool in PHP.
+
+Current build status: [![Build Status](https://travis-ci.org/Bendihossan/Pinfo.png)](https://travis-ci.org/Bendihossan/Pinfo)
 
 Basic Usage
 ====================

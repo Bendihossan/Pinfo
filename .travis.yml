@@ -1,10 +1,15 @@
 language: php
 php:
-  - "5.5"
   - "5.4"
   - "5.3"
 
 before_script:
   - php bin/composer install
+  - pear install pear/PHP_CodeSniffer
+  - phpenv rehash
 
-script: phpunit --coverage-text
+script:
+  - phpunit --coverage-text
+
+after_script:
+  - phpcs --standard=PSR2 src

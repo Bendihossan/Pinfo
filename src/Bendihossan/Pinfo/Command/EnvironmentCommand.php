@@ -17,8 +17,7 @@ class EnvironmentCommand extends PinfoCommand
         $this
             ->setName('pinfo:env')
             ->setDescription('Lists info about your PHP environment')
-            ->setHelp('The pinfo:env</info> command will list your PHP environment info.')
-            ;
+            ->setHelp('The pinfo:env</info> command will list your PHP environment info.');
     }
 
     /**

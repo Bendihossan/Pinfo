@@ -18,8 +18,7 @@ class ExtensionsCommand extends PinfoCommand
         $this
             ->setName('pinfo:exts')
             ->setDescription('Lists your PHP extensions.')
-            ->setHelp('The <info>pinfo:env</info> lists your environment specific info')
-            ;
+            ->setHelp('The <info>pinfo:env</info> lists your environment specific info');
     }
 
     /**

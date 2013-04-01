@@ -9,8 +9,8 @@ use Symfony\Component\Console\Input\InputOption;
 use Symfony\Component\Console\Output\OutputInterface;
 use Bendihossan\Pinfo\Command\PinfoCommand;
 
-class RunAllCommand extends PinfoCommand {
-
+class RunAllCommand extends PinfoCommand
+{
     /**
      * {@inheritdoc}
      */
@@ -19,8 +19,7 @@ class RunAllCommand extends PinfoCommand {
         $this
             ->setName('pinfo:all')
             ->setDescription('Lists all your environment info.')
-            ->setHelp('The <info>pinfo:all</info> lists your environment specific info')
-        ;
+            ->setHelp('The <info>pinfo:all</info> lists your environment specific info');
     }
 
     /**

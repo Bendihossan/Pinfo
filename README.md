@@ -10,7 +10,7 @@ Basic Usage
 ====================
 Pinfo! uses the Symfony Console component to register commands.
 
-Run ``php console.php`` to find out the available commands:
+Run ``php bin/pinfo`` to find out the available commands:
 ```
 Available commands:
   all    Lists all your environment info.
@@ -23,14 +23,13 @@ Coming soon!
 
 * More options
 * Bundled ``pinfo.phar`` in the bin/ directory.
-* Tests
 
 Contribute
 ====================
 1. Fork the repository and download the source to your development workspace and run ``bin/composer install``.
 2. Checkout a branch for your code
-3. Write the logic for your command in ``src/Bendihossan/Pinfo/pinfo.php``.
-4. Register a new command in ``console.php``.
+3. Write the logic for your command in ``src/Bendihossan/Pinfo/Command``.
+4. Register your new command in ``bin/pinfo``.
 5. Write unit tests for your command.
 6. Commit and push your code to GitHub, make a Pull Request to the Pinfo! project.
 
